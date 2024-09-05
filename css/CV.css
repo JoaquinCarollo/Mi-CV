@@ -1,0 +1,148 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .botonSlide {
+  background-color: rgb(63, 63, 255);
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+body .botonSlide:hover {
+  background-color: white;
+  color: rgb(63, 63, 255);
+}
+body section {
+  border: solid black;
+  display: flex;
+  height: 40rem;
+  width: 60rem;
+}
+body section #fotoDelCv {
+  width: 60%;
+}
+body section #fotoDelCv img {
+  height: 100%;
+  width: 100%;
+}
+body section #informacionDelCv {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(225, 225, 225);
+}
+body section #informacionDelCv #infoGeneral {
+  display: flex;
+  flex-direction: column;
+}
+body section #informacionDelCv #infoGeneral .encabezado {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 105, 211);
+}
+body section #informacionDelCv #infoGeneral .encabezado h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+body section #informacionDelCv #infoGeneral .encabezado h3 {
+  margin-top: 1rem;
+  color: white;
+}
+body section #informacionDelCv #infoGeneral .iconos {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 6rem;
+  margin-left: 1rem;
+}
+body section #informacionDelCv #infoGeneral .iconos div {
+  display: flex;
+  align-items: center;
+}
+body section #informacionDelCv #infoGeneral .iconos div img {
+  border: 1px black solid;
+  background-color: rgb(0, 105, 211);
+  border-radius: 50px;
+  width: 5rem;
+  height: 5rem;
+}
+body section #informacionDelCv #infoGeneral .iconos div span {
+  font-size: 20px;
+  margin-left: 1rem;
+}
+body section #informacionDelCv #habilidadesBlandasYTecnicas {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+body section #informacionDelCv #habilidadesBlandasYTecnicas ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body section #informacionDelCv #habilidadesBlandasYTecnicas ul b {
+  background-color: rgb(0, 105, 211);
+  color: white;
+  font-size: 25px;
+  width: 100%;
+  height: 2rem;
+}
+body section #informacionDelCv #habilidadesBlandasYTecnicas ul li {
+  margin: 0.5rem 0 0.5rem 0;
+}
+body section #informacionDelCv #academicoYCursos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+body section #informacionDelCv #academicoYCursos div h4 {
+  font-size: 25px;
+  background-color: rgb(0, 105, 211);
+  color: white;
+}
+body section #informacionDelCv #academicoYCursos div h5 {
+  font-size: 20px;
+}
+body section #informacionDelCv #experienciaLaboral h4 {
+  background-color: rgb(0, 105, 211);
+  font-size: 25px;
+  color: white;
+}
+body section #informacionDelCv #experienciaLaboral div ul h5 {
+  font-size: 20px;
+}
+body section #informacionDelCv #experienciaLaboral div ul li {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+#habilidadesNo {
+  display: none;
+}
+
+#academicoNo {
+  display: none;
+}
+
+#generalNo {
+  display: none;
+}
+
+#experienciaNo {
+  display: none;
+}
+
+/*# sourceMappingURL=CV.css.map */

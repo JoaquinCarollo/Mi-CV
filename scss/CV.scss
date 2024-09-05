@@ -1,0 +1,149 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .botonSlide {
+    background-color: rgb(63, 63, 255);
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+  }
+  .botonSlide:hover {
+    background-color: white;
+    color: rgb(63, 63, 255);
+  }
+  section {
+    border: solid black;
+    display: flex;
+    height: 40rem;
+    width: 60rem;
+    #fotoDelCv {
+      width: 60%;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    #informacionDelCv {
+      width: 40%;
+      height: 100%;
+      background-color: rgb(225, 225, 225);
+      #infoGeneral {
+        display: flex;
+        flex-direction: column;
+        .encabezado {
+          height: 20%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-color: rgb(0, 105, 211);
+          h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+          }
+          h3 {
+            margin-top: 1rem;
+            color: white;
+          }
+        }
+        .iconos {
+          height: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          margin-top: 6rem;
+          margin-left: 1rem;
+          div {
+            display: flex;
+            align-items: center;
+            img {
+              border: 1px black solid;
+              background-color: rgb(0, 105, 211);
+              border-radius: 50px;
+              width: 5rem;
+              height: 5rem;
+            }
+            span {
+              font-size: 20px;
+              margin-left: 1rem;
+            }
+          }
+        }
+      }
+      #habilidadesBlandasYTecnicas {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          b {
+            background-color: rgb(0, 105, 211);
+            color: white;
+            font-size: 25px;
+            width: 100%;
+            height: 2rem;
+          }
+          li {
+            margin: 0.5rem 0 0.5rem 0;
+          }
+        }
+      }
+      #academicoYCursos {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        div {
+          h4 {
+            font-size: 25px;
+            background-color: rgb(0, 105, 211);
+            color: white;
+          }
+          h5 {
+            font-size: 20px;
+          }
+        }
+      }
+      #experienciaLaboral {
+        h4 {
+          background-color: rgb(0, 105, 211);
+          font-size: 25px;
+          color: white;
+        }
+        div {
+          ul {
+            h5 {
+              font-size: 20px;
+            }
+            li {
+              margin: 0.5rem 0 0.5rem 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#habilidadesNo {
+  display: none;
+}
+#academicoNo {
+  display: none;
+}
+#generalNo {
+  display: none;
+}
+#experienciaNo {
+  display: none;
+}
